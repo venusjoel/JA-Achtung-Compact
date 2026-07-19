@@ -1,0 +1,98 @@
+{
+  "config": {
+    "frame_w": 64,
+    "frame_h": 48,
+    "start1_x": 10,
+    "start2_x": 53,
+    "start_y": 24,
+    "turn_cooldown": 0
+  },
+  "frames": 500,
+  "default_buttons": 0,
+  "events": [
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 8,
+      "end": 11
+    },
+    {
+      "buttons": [
+        "p2_right"
+      ],
+      "start": 42,
+      "end": 48
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 111,
+      "end": 117
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 131,
+      "end": 136
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 183,
+      "end": 186
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 206,
+      "end": 211
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 214,
+      "end": 217
+    },
+    {
+      "buttons": [
+        "p2_right"
+      ],
+      "start": 220,
+      "end": 225
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 274,
+      "end": 277
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 388,
+      "end": 394
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 436,
+      "end": 442
+    }
+  ]
+}

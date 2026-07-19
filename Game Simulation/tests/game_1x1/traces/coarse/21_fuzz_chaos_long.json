@@ -1,0 +1,822 @@
+{
+  "config": {
+    "frame_w": 64,
+    "frame_h": 48,
+    "start1_x": 10,
+    "start2_x": 53,
+    "start_y": 24,
+    "turn_cooldown": 0
+  },
+  "frames": 800,
+  "default_buttons": 0,
+  "events": [
+    {
+      "buttons": [
+        "p1_left",
+        "p2_right"
+      ],
+      "start": 1,
+      "end": 7
+    },
+    {
+      "buttons": [
+        "p2_right"
+      ],
+      "start": 11,
+      "end": 14
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 15,
+      "end": 21
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 23,
+      "end": 27
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 28,
+      "end": 31
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 33,
+      "end": 42
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 49,
+      "end": 55
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 59,
+      "end": 63
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 64,
+      "end": 69
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 71,
+      "end": 74
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_right"
+      ],
+      "start": 75,
+      "end": 81
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 83,
+      "end": 88
+    },
+    {
+      "buttons": [
+        "p2_right"
+      ],
+      "start": 89,
+      "end": 95
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 101,
+      "end": 107
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 110,
+      "end": 115
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 117,
+      "end": 120
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 125,
+      "end": 128
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_right"
+      ],
+      "start": 136,
+      "end": 141
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 143,
+      "end": 148
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_right"
+      ],
+      "start": 150,
+      "end": 156
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 157,
+      "end": 163
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 168,
+      "end": 171
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 173,
+      "end": 176
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 179,
+      "end": 183
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 185,
+      "end": 189
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 192,
+      "end": 198
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 202,
+      "end": 206
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 211,
+      "end": 214
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 217,
+      "end": 221
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 228,
+      "end": 233
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 240,
+      "end": 246
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 248,
+      "end": 251
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 252,
+      "end": 255
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 263,
+      "end": 266
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_right"
+      ],
+      "start": 267,
+      "end": 272
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 276,
+      "end": 282
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 284,
+      "end": 288
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 289,
+      "end": 293
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 295,
+      "end": 298
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 305,
+      "end": 310
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 313,
+      "end": 318
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 320,
+      "end": 331
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 338,
+      "end": 341
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 342,
+      "end": 347
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 350,
+      "end": 355
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 358,
+      "end": 364
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 366,
+      "end": 370
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 372,
+      "end": 377
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 378,
+      "end": 384
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 390,
+      "end": 393
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 394,
+      "end": 399
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 401,
+      "end": 404
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 407,
+      "end": 412
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 413,
+      "end": 416
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 417,
+      "end": 423
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 424,
+      "end": 427
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 432,
+      "end": 438
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 440,
+      "end": 446
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 447,
+      "end": 450
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 452,
+      "end": 458
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 460,
+      "end": 464
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_right"
+      ],
+      "start": 465,
+      "end": 471
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 473,
+      "end": 483
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_right"
+      ],
+      "start": 489,
+      "end": 493
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 494,
+      "end": 500
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 501,
+      "end": 504
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 507,
+      "end": 513
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 514,
+      "end": 518
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 519,
+      "end": 523
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 529,
+      "end": 533
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 535,
+      "end": 545
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 547,
+      "end": 551
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 552,
+      "end": 557
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 558,
+      "end": 564
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 568,
+      "end": 574
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 575,
+      "end": 581
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 583,
+      "end": 588
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 590,
+      "end": 593
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 594,
+      "end": 606
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 607,
+      "end": 611
+    },
+    {
+      "buttons": [
+        "p2_right"
+      ],
+      "start": 612,
+      "end": 615
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 618,
+      "end": 623
+    },
+    {
+      "buttons": [
+        "p2_right"
+      ],
+      "start": 624,
+      "end": 629
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_right"
+      ],
+      "start": 630,
+      "end": 635
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_right"
+      ],
+      "start": 638,
+      "end": 643
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 645,
+      "end": 648
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_right"
+      ],
+      "start": 651,
+      "end": 656
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 657,
+      "end": 662
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 664,
+      "end": 674
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 676,
+      "end": 680
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 682,
+      "end": 688
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 689,
+      "end": 693
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 694,
+      "end": 698
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 701,
+      "end": 705
+    },
+    {
+      "buttons": [
+        "p1_left"
+      ],
+      "start": 706,
+      "end": 712
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 713,
+      "end": 717
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 719,
+      "end": 724
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 725,
+      "end": 729
+    },
+    {
+      "buttons": [
+        "p1_right"
+      ],
+      "start": 730,
+      "end": 733
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 737,
+      "end": 743
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 745,
+      "end": 749
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 750,
+      "end": 753
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 757,
+      "end": 763
+    },
+    {
+      "buttons": [
+        "p2_right"
+      ],
+      "start": 764,
+      "end": 769
+    },
+    {
+      "buttons": [
+        "p2_left"
+      ],
+      "start": 779,
+      "end": 784
+    },
+    {
+      "buttons": [
+        "p1_left",
+        "p2_left"
+      ],
+      "start": 785,
+      "end": 788
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_right"
+      ],
+      "start": 789,
+      "end": 793
+    },
+    {
+      "buttons": [
+        "p1_right",
+        "p2_left"
+      ],
+      "start": 794,
+      "end": 799
+    }
+  ]
+}

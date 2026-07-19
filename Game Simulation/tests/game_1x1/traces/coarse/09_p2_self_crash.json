@@ -1,0 +1,48 @@
+{
+  "config": {
+    "frame_w": 64,
+    "frame_h": 48,
+    "start1_x": 10,
+    "start2_x": 53,
+    "start_y": 24,
+    "turn_cooldown": 0
+  },
+  "expected": {
+    "death_player": "p2",
+    "death_reason": "self",
+    "p1_alive": true,
+    "p2_alive": false
+  },
+  "frames": 60,
+  "default_buttons": 0,
+  "events": [
+    {
+      "buttons": [
+        "p2_right"
+      ],
+      "start": 4,
+      "end": 7
+    },
+    {
+      "buttons": [
+        "p2_right"
+      ],
+      "start": 12,
+      "end": 15
+    },
+    {
+      "buttons": [
+        "p2_right"
+      ],
+      "start": 20,
+      "end": 23
+    },
+    {
+      "buttons": [
+        "p2_right"
+      ],
+      "start": 28,
+      "end": 31
+    }
+  ]
+}
