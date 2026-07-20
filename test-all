@@ -28,14 +28,34 @@ fi
 # The cocotb Makefile locates cocotb-config through PATH.
 export PATH="$(dirname "$py"):$PATH"
 
-echo "[1/3] Full game, VGA, QSPI PSRAM, input, and arbitration tests"
+echo "[1/6] Full-size game, VGA, QSPI PSRAM, input, and arbitration tests"
 "$py" "Game Simulation/tests/game_1x1/run.py" --test all --rebuild
 
-echo "[2/3] Standalone PSRAM controller and display-streamer tests"
+echo "[2/6] Accelerated coarse game-logic trace suite"
+"$py" "Game Simulation/tests/game_1x1/run.py" --test suite --mode coarse --rebuild
+
+echo "[3/6] Standalone PSRAM controller and display-streamer tests"
 "$py" "Game Simulation/tests/ram/run.py" --target 1x1-minimal --rebuild
 
-echo "[3/3] Tiny Tapeout top-level pin test"
-make -C test clean
-make -C test
+echo "[4/6] Tiny Tapeout top-level pin test"
+(
+  cd test
+  make clean
+  make
+)
+
+echo "[5/6] Exhaustive compact gamepad decoder test"
+iverilog -g2012 -DCOCOTB_SIM -I src \
+  -s tb_decoder_exhaustive \
+  -o test/decoder_exhaustive.vvp \
+  test/tb_decoder_exhaustive.sv \
+  src/tt_um_ja_achtung_1x1.v src/psram_controller.v \
+  src/display_streamer.v src/game_fsm.v src/vga_sync.v
+vvp test/decoder_exhaustive.vvp | tee test/decoder_exhaustive.log
+grep -q "PASS compact decoder exhaustive: cases=8193 failures=0" \
+  test/decoder_exhaustive.log
+
+echo "[6/6] Hardening-metric policy unit tests"
+"$py" tools/test_check_harden_metrics.py -q
 
 echo "All 1x1 local tests passed."

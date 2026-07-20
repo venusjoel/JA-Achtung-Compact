@@ -22,6 +22,9 @@ The exact HDL and configuration in this project were validated with LibreLane
 - final utilization: 92.6415%
 - worst setup slack: +5.22364 ns
 - worst hold slack: +0.03444 ns
+- worst-corner max-slew advisories: 174
+- worst-corner max-capacitance advisories: 0
+- worst-corner max-fanout advisories: 0
 - setup, hold, routing DRC, Magic DRC, LVS, and antenna violations: 0
 - Tiny Tapeout precheck: 15/15 passed
 - powered gate-level QSPI/VGA smoke test: passed
@@ -38,9 +41,11 @@ Run the one-time setup, then use the all-tests launcher whenever needed:
 ./test-all
 ```
 
-`./test-all` runs the full game/VGA/system suite, standalone PSRAM-controller
-and display-streamer tests, and the Tiny Tapeout top-level pin test. It stops
-at the first failure and prints a final success message only if all three pass.
+`./test-all` runs the full-size and accelerated coarse game suites, the real
+VGA/QSPI/system path, standalone PSRAM-controller and display-streamer tests,
+the Tiny Tapeout top-level pin test, and the exhaustive compact gamepad-decoder
+test, plus unit tests for the hardening-metric policy. It stops at the first
+failure and prints a final success message only if every group passes.
 
 The framebuffer is external. Hardware use requires a compatible QSPI PSRAM,
 the Tiny Tapeout VGA PMOD, and the Gamepad PMOD. See `docs/info.md` for the

@@ -7,4 +7,5 @@ silently diverge.
 
 Validated LibreLane 3.0.3 result: 15,279.7 µm² standard-cell area, 92.6415%
 utilization, +5.22364 ns setup slack, +0.03444 ns hold slack, and zero hard
-signoff violations.
+signoff violations. The worst corner reports 174 max-slew advisories and zero
+max-capacitance or max-fanout advisories.
