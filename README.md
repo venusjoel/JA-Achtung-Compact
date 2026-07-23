@@ -4,6 +4,21 @@ This repository is the standalone one-tile version of our two-player
 *Achtung, die Kurve!* hardware game for Tiny Tapeout. It uses cardinal
 movement, a 1-bit external QSPI PSRAM framebuffer, and direct 640×480 VGA.
 
+## Hardware at a glance
+
+<p align="center">
+  <img src="docs/images/gds-layout.png" alt="Final routed GDS layout of the JA Achtung Compact 1x1 Tiny Tapeout design" width="900">
+</p>
+
+<p align="center">
+  <em>Current main-branch SKY130 layout, rendered directly from the latest successful GDS workflow.</em><br>
+  <a href="https://venusjoel.github.io/JA-Achtung-Compact/">Explore the interactive 3D GDS</a>
+</p>
+
+| Tiny Tapeout footprint | Standard-cell area | Final utilization | Physical signoff |
+| :---: | ---: | ---: | :---: |
+| 1×1 tile | 15,279.7 µm² | 92.6415% | 0 DRC/LVS/antenna violations |
+
 ## Project portfolio
 
 The shared project materials cover both the Compact 1x1 and Full 1x2
@@ -22,6 +37,17 @@ The Tiny Tapeout project is entirely at the repository root:
 - `test/`: root RTL and gate-level pin smoke tests
 - `Game Simulation/tests/game_1x1/`: 1x1 VGA, game-model, and system tests
 - `targets/1x1-minimal/`: byte-for-byte canonical mirror used by CI
+
+## System architecture
+
+<p align="center">
+  <img src="docs/images/system-architecture.png" alt="JA Achtung architecture showing the controllers, game FSM, VGA pipeline, clocking, and external QSPI PSRAM" width="900">
+</p>
+
+Both versions stream the framebuffer through external QSPI PSRAM instead of
+trying to store a full 640×480 frame in on-chip flip-flops. The Compact design
+preserves the complete two-player VGA system in one tile by using cardinal
+movement and a 1-bit framebuffer.
 
 ## Validation baseline
 
