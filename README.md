@@ -4,6 +4,16 @@ This repository is the standalone one-tile version of our two-player
 *Achtung, die Kurve!* hardware game for Tiny Tapeout. It uses cardinal
 movement, a 1-bit external QSPI PSRAM framebuffer, and direct 640×480 VGA.
 
+## Project portfolio
+
+The shared project materials cover both the Compact 1x1 and Full 1x2
+implementations:
+
+- [Presentation slides (PDF)](https://github.com/venusjoel/JA-Achtung-Full/blob/main/docs/portfolio/JA-Achtung-Project-Presentation.pdf)
+- [Final project report (PDF)](https://github.com/venusjoel/JA-Achtung-Full/blob/main/docs/portfolio/JA-Achtung-Final-Report.pdf)
+- [Download the PowerPoint with embedded demonstration videos](https://github.com/venusjoel/JA-Achtung-Full/raw/main/docs/portfolio/JA-Achtung-Project-Presentation.pptx)
+- [Portfolio index and editable source files](https://github.com/venusjoel/JA-Achtung-Full/tree/main/docs/portfolio)
+
 The Tiny Tapeout project is entirely at the repository root:
 
 - `src/`: exact 1x1 HDL and LibreLane configuration
