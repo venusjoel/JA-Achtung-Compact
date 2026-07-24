@@ -4,6 +4,8 @@ This repository is the standalone one-tile version of our two-player
 *Achtung, die Kurve!* hardware game for Tiny Tapeout. It uses cardinal
 movement, a 1-bit external QSPI PSRAM framebuffer, and direct 640×480 VGA.
 
+This is a complete ASIC design prepared for submission to Tiny Tapeout, where its verified SKY130 GDS layout is intended to be fabricated as part of a real shared silicon chip—not only run in simulation or on an FPGA.
+
 ## Hardware at a glance
 
 <p align="center">
