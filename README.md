@@ -6,6 +6,14 @@ movement, a 1-bit external QSPI PSRAM framebuffer, and direct 640×480 VGA.
 
 This is a complete ASIC design prepared for submission to Tiny Tapeout, where its verified SKY130 GDS layout is intended to be fabricated as part of a real shared silicon chip—not only run in simulation or on an FPGA.
 
+## Gameplay demonstration
+
+<p align="center">
+  <img src="docs/images/gameplay-demo.gif" alt="Real VGA demonstration of the JA Achtung Compact 1x1 monochrome game" width="640">
+</p>
+
+<p align="center"><em>Authentic footage from the original project presentation: two players steer the Compact 1×1 design's cardinal-direction trails on a real VGA display.</em></p>
+
 ## Hardware at a glance
 
 <p align="center">
