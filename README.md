@@ -8,11 +8,9 @@ This is a complete ASIC design prepared for submission to Tiny Tapeout, where it
 
 ## Gameplay demonstration
 
-<p align="center">
-  <img src="docs/images/gameplay-demo.gif" alt="Real VGA demonstration of the JA Achtung Compact 1x1 monochrome game" width="640">
-</p>
+![Real VGA demonstration of the JA Achtung Compact 1x1 monochrome game](docs/images/gameplay.gif)
 
-<p align="center"><em>Authentic footage from the original project presentation: two players steer the Compact 1×1 design's cardinal-direction trails on a real VGA display.</em></p>
+*Authentic footage from the original project presentation: two players steer the Compact 1×1 design's cardinal-direction trails on a real VGA display.*
 
 ## Hardware at a glance
 
