@@ -15,3 +15,11 @@ Makefile  text eol=lf
 *.png     binary
 *.fst     binary
 *.vcd     binary
+
+# Language stats. This is a hardware design, but the cocotb simulation harness
+# and helper tooling outweigh the RTL by byte count, so GitHub was reporting the
+# repository as Python. Exclude the harness and tooling from the language bar so
+# the RTL identifies the project. The Tiny Tapeout cocotb tests under test/ stay
+# detectable, which keeps the Python verification work visible.
+"Game Simulation/**/*.py" linguist-vendored=true
+tools/**/*.py             linguist-vendored=true
